@@ -1,0 +1,42 @@
+        <div id="boxC">
+
+                <p>
+                Zcela jediný a jedinečný koncept sit - down umělce. </br>Psací stroj, sešit a pero
+                a k tomu básník. Portrétista, co portrétuje poezií.</br> Sdělíte mi své jméno a 
+                dvě tři slova, která chete otisknout do básně.</br> Za tři minuty získáváte
+                kartičku s originální básní na přání.</br> Vše vzniká před vašima očima a
+                finále pak na krásném psacím stroji.
+                </p>
+
+        </div>
+
+        <div id="dots">
+
+            <img src="assets/images/tecky.jpg" alt="" width="955" height="5" class="" />
+
+        </div>
+
+        <div id="boxD">
+
+            <p>Služby:</p>
+
+            <div class="eventPic">    
+                <a href="/czeventy.html">
+                <img src="assets/images/eventy.jpg" alt="Eventy" class="image" width="478" height="317" border="0">
+
+                    <div class="overlay">
+                        <div class="text">EVENTY</div>
+                    </div>
+                </a>         
+            </div>   
+
+            <div class="svatbyPic">    
+                <a href="/czsvatby.html">
+                <img  src="assets/images/svatby.jpg" alt="Svatby" class="image" width="477" height="317" border="0">
+
+                    <div class="overlay">
+                        <div class="text">SVATBY</div>
+                    </div>
+                </a>
+            </div>    
+        </div>
