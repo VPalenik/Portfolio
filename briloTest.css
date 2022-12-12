@@ -1,0 +1,144 @@
+/*Brilo test assignment CSS
+By: Vladislav Palenik
+Date: 12.12.2022
+*/
+
+/*
+Colors:
+Background: #333333
+Nav: #1f464d
+Button+cards: #3697a7
+TinyBorderShades: #333434 <--- not implemented yet
+Hover: #ededed
+*/
+
+/*General settings*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #333333;
+    color: #fff;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #ededed;
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 2rem auto;
+}
+
+p {
+    margin: 2rem auto;
+}
+
+
+
+/*NavBar + Main Menu*/
+
+header {
+    width: 60%;
+    height: 5vh;
+    padding: 0rem 3rem;
+    margin: 0rem auto;
+    background-color: #1f464d;
+    
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+.mainMenu {
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.mainMenu>li {
+    padding: 0.8rem 1rem;
+    list-style: none;
+}
+
+/*Main Container*/
+
+main {
+    display: grid;
+    justify-content: center;
+    margin: 10vh auto 0rem auto;
+    width: 60%;
+    /*or just> margin: 10vh 15rem 0rem 15rem;*/
+}
+    
+/*Intro*/
+
+.intro {
+    display: flex;
+
+}
+
+.introText {
+    padding: 0rem 10rem 0rem 0rem;
+}
+
+.cta {
+    padding: 0.5rem 4rem;
+    background-color: #3697a7;
+    text-transform: uppercase;
+    border: none;
+}
+
+.portrait {
+    width: 100%;
+}
+
+/*Reference*/
+
+.reference {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 0px 3rem;
+}
+
+.cards {
+    background-color: #3697a7;
+    display: flex;
+    margin-bottom: 10rem;
+    max-width: 30%;
+}
+.cardImg {
+    width: 100%;
+    height: auto;
+}
+.cardsBody {
+    padding: 0rem 1rem;
+}
+
+
+/*Footer*/
+footer {
+    /*position: fixed;
+    bottom: 0;*/
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+}
+.copyRight {
+    margin: 0rem auto;
+    padding: 1rem 5rem;
+}
+/*Responsive*/
